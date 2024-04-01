@@ -1,1 +1,2 @@
-// コードを入力してください
+template<typename... Args>
+int sum(Args... args){ return (args + ...); };
