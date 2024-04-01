@@ -1,1 +1,4 @@
-// コードを入力してください
+template<typename... Args>
+bool allTrue(Args... args){
+    return (... && args);
+}
