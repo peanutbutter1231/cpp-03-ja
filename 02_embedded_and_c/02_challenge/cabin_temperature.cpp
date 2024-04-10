@@ -1,1 +1,6 @@
-// コードを入力してください
+#include "units.hpp"
+#include "cabin_temperature.hpp"
+
+temperature::kelvin CabinTemperature::read() {
+    return temperature::kelvin(25.0);
+}
