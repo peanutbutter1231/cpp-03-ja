@@ -5,5 +5,5 @@
 
 class TirePressure : public PressureSensor {
 public:
-    pressure::psi read() override;
+    pressure::psi read() const override;
 };

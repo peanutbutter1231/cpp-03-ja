@@ -5,5 +5,5 @@
 
 class CPUTemperature : public TemperatureSensor {
 public:
-    temperature::kelvin read() override;
+    temperature::kelvin read() const override;
 };

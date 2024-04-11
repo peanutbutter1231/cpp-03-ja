@@ -4,5 +4,5 @@
 
 class PressureSensor {
 public:
-    virtual pressure::psi read() = 0;
+    virtual pressure::psi read() const = 0;
 };
